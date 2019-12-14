@@ -10,7 +10,7 @@ import java.time.ZonedDateTime;
 import java.util.*;
 
 @RestController
-@RequestMapping(path="/demo")
+@RequestMapping(path="/helpingSapiens")
 public class RatingController {
 
     @RequestMapping(path = "/getRating/{seeker_user_id}/{currentSeeker_rating}/{previousSeeker_ratings_time}", method = RequestMethod.GET)
