@@ -1,0 +1,7 @@
+This project contains two apis /helpingSapiens/getRatings and /helpingSapiens/getRecommendation
+
+getRatings response contains average rating after checking BiasedRatings
+
+getRecommendation respoinse contains list of recommeded users in descending order according to their ratings
+
+
